@@ -12,5 +12,16 @@ public class Main {
         System.out.println(a == b);
 
         System.out.println(firstNumber.equals(secondNumber));
+
+        System.out.println(firstNumber == a);
+
+        String firstString = "ABC";
+        String secondString = "ABC";
+        String thirdString = new String("ABC");
+        String fourthString = new String("ABC");
+
+        System.out.println(firstString == thirdString);
+        System.out.println(firstString.equals(thirdString));
+
     }
 }
