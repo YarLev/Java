@@ -16,7 +16,13 @@ public class Main {
                 System.out.println(i);
             }
         }
+
+        CustomLinkedList<String> customLinkedList = new CustomLinkedList<>();
+        customLinkedList.add("Hello World!");
+        customLinkedList.add("My name is Earl");
+        customLinkedList.add("I love Java");
+        customLinkedList.add("I live in Moscow");
+
+        System.out.println(customLinkedList.get(2));
     }
-
-
 }
